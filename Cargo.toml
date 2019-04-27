@@ -1,0 +1,11 @@
+[package]
+name = "bloxi"
+version = "0.1.0"
+authors = ["lloydmeta <lloydmeta@gmail.com>"]
+edition = "2018"
+
+[workspace]
+
+[dependencies]
+bloxi_core = { path = "bloxi_core"}
+pretty_env_logger = "0.3.0"
