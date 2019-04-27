@@ -1,4 +1,4 @@
-# Bloxi
+# Bloxi [![Build Status](https://travis-ci.org/lloydmeta/bloxi.svg?branch=master)](https://travis-ci.org/lloydmeta/bloxi)
 
 A Blockchain implementation in Rust, based on the [Learn Blockchains by Building One](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
 tutorial.
@@ -40,3 +40,4 @@ Lots to do, since this is a pretty faithful reproduction of the tutorial.
 - Optimise (aka get rid of `.clone`s and `Box`es thrown in anger)
 - Gossiping data (nodes, reconciling)
 - Verifying Transactions are sound (currently just dumb data keeping)
+- Moar tests
